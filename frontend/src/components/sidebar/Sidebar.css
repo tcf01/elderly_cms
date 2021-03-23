@@ -1,0 +1,104 @@
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    animation: animateLeft 0.3s;
+    padding-top: 58px;
+    background-color: rgb(107, 201, 235);
+}
+
+
+.sidebar a{
+    font-size:22px;
+    font-weight:600;
+}
+
+.sidebar a:hover{
+background:white;
+color:#6BC9EB;
+border-radius: 15px;
+}
+
+
+.sidebar a i{
+    width:28px;
+}
+
+
+.link {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    color: white;
+}
+
+.user_info_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.user-profile {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 70%
+}
+
+.image{
+    background-image: url("https://image.flaticon.com/icons/png/512/55/55089.png");
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.control span{
+    margin-top: 10px;
+    color:black
+}
+
+[href="/register"]{
+    margin-top: 80px;
+}
+
+
+@keyframes animateLeft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animateRight {
+    from {
+        right: 300px;
+        opacity: 1;
+    }
+
+    to {
+        right: 0;
+        opacity: 0;
+    }
+}

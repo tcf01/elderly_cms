@@ -1,0 +1,313 @@
+.blue-btn {
+    background-color: #00AEEE;
+    color: white;
+    border: 0px
+}
+
+/* 詳細資料頁面 */
+
+@media screen and (max-width: 500px) {
+    .details-head h2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .basic-info-wrapper {
+        display: flex;
+        margin: 30px 0px 0px 0px;
+        flex-direction: column;
+    }
+
+    .basic-info-left {
+        width: 300px;
+    }
+
+    .details-wrapper {
+        margin-left: 10px;
+    }
+}
+
+.details-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2>.name {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+
+/* 個人資料頁面 */
+.basic-info-wrapper {
+    display: flex;
+    margin: 30px 0px 0px 0px;
+}
+
+.basic-info-left {
+    width: 300px;
+}
+
+.details-wrapper {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.details-wrapper div button,
+div.details-age>.details-field {
+    margin-bottom: 30px;
+}
+
+
+.details-wrapper div label {
+    margin: 0px 0px 30px;
+}
+
+
+.details-picture {
+    border-top: 10px white solid;
+    border-bottom: 10px white solid;
+}
+
+.details-section-name {
+    background: goldenrod;
+    padding: 10px;
+}
+
+.details-section-head {
+    font-size: 1.4em;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-section-number {
+    background: #00AEEE;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.modal-upload-file,
+.details-upload-file {
+    position: relative;
+    border-radius: 11px;
+    font-size: 15px;
+    outline: 0;
+    padding: 7px 10px;
+    background-color: #e8eeef;
+    color: #8a97a0;
+}
+
+.modal-upload-file:hover,
+.details-upload-file:hover {
+    background: #d2d9dd;
+}
+
+.modal-body input[type="file"],
+.details-wrapper input[type="file"] {
+    display: none;
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="number"],
+.modal-body input[type="date"],
+.modal-body select,
+.details-wrapper input[type="text"],
+.details-wrapper input[type="number"],
+.details-wrapper input[type="date"] {
+    border: none;
+    border-radius: 11px;
+    font-size: 16px;
+    outline: 0;
+    padding: 10px;
+    background-color: #e8eeef;
+    color: #000000;
+}
+
+
+.modal-body input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    visibility: hidden;
+    position: relative;
+}
+
+.modal-body input[type="checkbox"]:after {
+    position: absolute;
+    top: 0;
+    content: " ";
+    background-color: #e8eeef;
+    display: inline-block;
+    visibility: visible;
+    font-size: 16px;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    padding: 0px 3px;
+    border: 2px black solid;
+    border-radius: 4px;
+}
+
+.modal-body input[type="checkbox"]:checked:after {
+    content: "✓";
+}
+
+.details-wrapper input[type="text"]:hover,
+.details-wrapper input[type="number"]:hover,
+.details-wrapper input[type="date"]:hover,
+.details-wrapper input[type="text"]:focus,
+.details-wrapper input[type="number"]:focus,
+.details-wrapper input[type="date"]:focus
+
+/* .modal-body input[type="text"]:focus,
+.modal-body input[type="number"]:focus,
+.modal-body input[type="date"]:focus,
+.modal-body select:focus
+.modal-body input[type="text"]:hover,
+.modal-body input[type="number"]:hover,
+.modal-body input[type="date"]:hover,
+.modal-body select:hover,
+.modal-body input[type="checkbox"]:after:hover */
+    {
+    background: #d2d9dd;
+}
+
+.modal-field,
+.details-field {
+    display: inline-block;
+    width: 160px;
+}
+
+.details-wrapper div,
+.modal-body div {
+    margin: 5px 0px;
+}
+
+.details-wrapper label {
+    margin: 0px 5px;
+}
+
+.details-wrapper button {
+    margin: 0px 5px;
+}
+
+
+/* 藥物 */
+
+.drug-list-wrapper {
+    padding: 25px;
+
+}
+
+.drug-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.drug {
+    width: 305px;
+    margin: 20px 0px;
+}
+
+.drug-list-add-btn {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.drug-header {
+    background: #00AEEE;
+    color: white;
+    font-size: 20pt;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: .25rem .25rem 0rem 0rem;
+    padding: 10px;
+}
+
+.drug-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightseagreen;
+    width: 130px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.drug-image-wrapper {
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.drug-image {
+    width: 100%;
+}
+
+.drug-image>img {
+    width: unset;
+}
+
+.daily-drug-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10px 0px;
+}
+
+.daily-drug-card>.card {
+    margin: 20px 5px;
+}
+
+.daily-drug-card .card-header {
+    background-color: #00AEEE;
+    color: white;
+}
+
+
+.daily-drug-card h3.card-header {
+    display: flex;
+    align-items: center;
+}
+
+
+.daily-drug-width {
+    width: 180px;
+}
+
+.daily-drug-show {
+    text-align: center;
+    width: 80px;
+    color: white;
+}
+
+.daily-drug-red {
+    background: red;
+}
+
+.daily-drug-amber {
+    background: rgb(196, 165, 31);
+}
+
+.daily-drug-green {
+    background: green;
+}

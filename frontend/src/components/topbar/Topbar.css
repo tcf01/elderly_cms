@@ -1,0 +1,25 @@
+
+.topBar{
+    background: #F5F4FA;
+}
+.topBar i{
+ padding:0px 5px;
+ font-size:25px;
+ color:#4C90B8
+}
+.topBar i:hover{
+    color: #197DAC;
+    transform: scale(0.8);
+}
+.main-name{
+    font-size: 25px;
+    font-weight: 600;
+    color: #4C90B8;
+    padding: 0;
+}
+.home-name{
+    font-size: 20px;
+    color: #197DAC;
+    padding: 0;
+}
+

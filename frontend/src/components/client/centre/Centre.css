@@ -1,0 +1,108 @@
+
+
+.section-head>i {
+    margin-right: 5px;
+}
+
+.client-area {
+    padding: 10px;
+    margin: 0px 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.client-card>div {
+    text-align: left
+}
+
+
+.a {
+    color: unset;
+}
+
+
+
+/* Client Center 住客中心 */
+/* 一入去嘅一張張卡 */
+
+.client-card {
+    position: relative;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.client-bed {
+    display: flex;
+}
+
+.client-bed-no {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 10px;
+
+}
+
+.client-img img {
+    height: 180px;
+    width: 290px
+}
+
+.client-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.9rem;
+    background-color: #00AEEE
+}
+
+.client-info-wrapper {
+    border: 1px #00AEEE solid;
+    -webkit-border-bottom-right-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-bottomright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    padding: 5px 10px 15px;
+    font-size: 16pt;
+    color: black;
+}
+
+.card-layer {
+    background-color: azure;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: black;
+    font-size: 25pt;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-bottom-right-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-bottomright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.client-card:hover .card-layer {
+    opacity: 0.85;
+}

@@ -1,0 +1,86 @@
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+
+.contract-item,
+.contract-item div {
+    font-size: 1.5rem;
+}
+
+
+.contract-wrapper {
+    margin: 5px 45px
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.table1 div,
+span {
+    padding: 1px 5px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+}
+
+.contactNumber {
+    display: flex;
+    justify-content: center;
+}
+
+.dateAndRegister {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0px;
+
+}
+
+.gender {
+    margin: 0px 100px;
+}
+
+
+.hidden {
+    visibility: hidden
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between
+}
+
+.text-centre {
+    display: flex;
+    justify-content: center;
+}
+
+.bord {
+    border: 1px solid black;
+}
+
+.register {
+    display: flex;
+}
+
+.upper-space {
+    margin: 30px 0px;
+}
+
+.size {
+    width: 50%
+}

@@ -1,0 +1,40 @@
+div{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:400;
+}
+
+.link-btns{
+    display:flex;
+    justify-content:center;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.client-centre,.medicine-big-wrapper,.individual-wrapper{
+    position: absolute;
+    top: 10%;
+}
+
+.temperature-list,.manager-wrapper,.details-big-wrapper,.med-deliver-wrapper,.individual-med-card-wrapper,.registration-wrapper{
+    /* position: absolute;
+    top: 10%;
+    width: 100%;
+    padding: 25px; */
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    padding: 55px; 
+    height: calc(100% - 63px - 20px);
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.head-sign{
+    margin-right:20px;
+}

@@ -1,0 +1,154 @@
+.oneElderly{
+    display:flex;
+    background: lightblue;
+    margin:10px;
+    padding:10px;
+}
+
+/* big wrap */
+.med-deliver-margin{
+    margin:0px 25px;
+}
+
+.med-deliver-margin h2.time{
+    border-bottom:1px black dotted;
+    margin:15px 0px 5px;
+    padding:5px 0px;
+    text-align: center;
+}
+
+/* Alert BAR */
+.alert{
+    top: 8%;
+    width: 100%;
+}
+.alert-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Elderly Card */
+
+.deliver-container {
+    width: 310px;
+    height: 360px;
+    margin: 0.5em;
+    border-top: 1px solid #efefefc4;
+    border-left: 1px solid #efefefc4;
+    border-right: 1px solid #efefefc4;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 20px 5px;
+    transition: all 0.5s;
+}
+
+.deliver-container:hover {
+    transform: scale(1.02);
+}
+
+/* 藥物 */
+.set-z-index-1111{
+    z-index:1111;
+}
+
+@media screen and (max-width: 500px) {
+.set-media{
+    font-size:18px;
+}
+}
+
+.med{
+    margin:5px;
+    border:1px solid #D4EDDA;
+    border-radius: 20px;
+}
+
+
+.med-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+}
+
+
+.medi-image{
+    max-width:100%;
+    max-height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+
+.med{
+    display:flex;
+    margin:5px;
+    border:1px solid #D4EDDA;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.medi-image-wrapper{
+    width: 250px;
+    height:unset;
+}
+.medi-mediDetails-wrapper{
+    width:300px
+}
+
+.med .buttons{
+    flex-wrap: wrap;
+    flex-direction: unset;
+    width:400px;
+    margin:10px;
+}
+
+}
+
+
+.medi-image-wrapper{
+    height:unset;
+}
+.med .buttons{
+    flex-wrap: wrap;
+    flex-direction: unset;
+    margin:10px;
+}
+
+
+.mediDetails{
+    margin:15px;
+}
+
+.mediDetails.drug-name{
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.mediDetails>img{
+    width:100px;
+    height:100px;
+}
+
+
+.med-selection-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:lightgreen;
+    color:darkblue;
+    border-radius: 10px;
+    margin:5px;
+    height: 80px;
+    width: 120px;
+}
+
+.med-selection-button:hover{
+    background:darkblue;
+    color:lightgreen;
+}
+
+
+.bactive{
+    background:darkblue;
+    color:white;
+}
